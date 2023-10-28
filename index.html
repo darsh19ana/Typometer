@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Typing Speed Test</title>
+</head>
+<body>
+    <h1>Typing Speed Test</h1>
+    <p id="quote">Loading...</p>
+    <input type="text" id="input" placeholder="Start typing...">
+    <p id="result">Result: </p>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>

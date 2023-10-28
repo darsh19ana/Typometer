@@ -1,0 +1,3 @@
+  create and activate virtual environment
+  install flask in the activated environment
+  Flask==2.0.1
